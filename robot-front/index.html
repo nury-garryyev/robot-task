@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Canvas Grid</title>
+
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/functions.js"></script>	
+</head>
+
+
+<body onload="drawGrid(0, 0, 'SOUTH'); addInitialInputs();">
+
+	<div class="container left">
+		<span id="inputs"></span>
+
+		<button onclick="sendCommands(getCommands())" class="button">Send commands</button>
+	</div>
+		
+	<div class="container right">
+		<center>
+			<canvas id="grid">
+		</center>
+	</div>
+
+</body>
+<html>
